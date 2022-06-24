@@ -1,0 +1,4 @@
+﻿simulateModel("MultiZoneOfficeSimpleAirMotor.Guideline36Motor", startTime=15638400, stopTime=15984000, method="Cvode", tolerance=1e-06, resultFile="Guideline36Motor");
+createPlot(id=1, position={55, 55, 1484, 920}, y={"fanSup.P", "fanSup.mover.mover.P"}, range={15620000.0, 16000000.0, -2000.0, 14000.0}, grid=true, subPlot=101, colors={{28,108,200}, {238,46,47}}, timeUnit="s", displayUnits={"W", "W"});
+createPlot(id=1, position={55, 55, 1484, 920}, y={"senSupFlo.V_flow"}, range={15620000.0, 16000000.0, -0.5, 3.0}, grid=true, subPlot=102, colors={{28,108,200}}, timeUnit="s", displayUnits={"m3/s"});
+

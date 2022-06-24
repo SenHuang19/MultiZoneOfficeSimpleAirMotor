@@ -1,0 +1,3 @@
+within MultiZoneOfficeSimpleAirMotor.BaseClasses.MotorDevice.Motor.BaseClasses;
+package Functions "Package for base functions"
+end Functions;

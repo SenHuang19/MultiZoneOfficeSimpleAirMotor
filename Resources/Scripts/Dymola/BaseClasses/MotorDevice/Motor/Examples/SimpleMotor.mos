@@ -1,0 +1,5 @@
+﻿simulateModel("MultiZoneOfficeSimpleAirMotor.BaseClasses.MotorDevice.Motor.Examples.SimpleMotor", stopTime=3600,method="Cvode", tolerance=1e-06, resultFile="SimpleMotor");
+createPlot(id=1, position={75, 75, 1623, 1284}, y={"simMot.P", "simMot.Q"}, range={0.0, 3600.0, 0.0, 15000.0}, grid=true, subPlot=101, colors={{28,108,200}, {238,46,47}}, timeUnit="s", displayUnits={"W", "W"});
+createPlot(id=1, position={75, 75, 1623, 1284}, y={"V.y"}, range={0.0, 3600.0, 95.0, 115.0}, grid=true, subPlot=102, colors={{28,108,200}}, timeUnit="s", displayUnits={"V"});
+createPlot(id=1, position={75, 75, 1623, 1284}, y={"Tor.y", "simMot.torSpe.tau_e"}, range={0.0, 3600.0, 5.0, 30.0}, grid=true, subPlot=103, colors={{28,108,200}, {238,46,47}}, timeUnit="s", displayUnits={"N.m", "N.m"});
+
